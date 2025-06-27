@@ -5,3 +5,7 @@
     tw-bg-[url(../styles/images/bg-light.png)] 
     tw-bg-fixed tw-bg-cover tw-bg-no-repeat tw-bg-center;
 }
+
+html:global(.dark) .layout {
+  @apply tw-bg-[url(../styles/images/bg-dark.png)];
+}
